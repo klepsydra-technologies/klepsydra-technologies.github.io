@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: Klepsydra Community
+description: An open source framework for high performance edge data processing.
+github:
+  repository_core_url: https://github.com/klepsydra-technologies/kpsr-core
+  repository_robo_url: https://github.com/klepsydra-technologies/kpsr-robotics
+  repository_tuto_url: https://github.com/klepsydra-technologies/kpsr-tutorial
+  repository_visi_url: https://github.com/klepsydra-technologies/kpsr-vision-ocv-tutorial

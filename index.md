@@ -3,125 +3,124 @@ layout: default
 title: Klepsydra Community
 ---
 
-## Klepsydra Community
+# Klepsydra Community Edition GitHub Page
 
+## Overview
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+This is the GitHub page for Klepsydra Community. The goal of this is page is to provide information for the list of repositories that comprises Klepsydra Community and their documentation.
 
-[Link to another page](./another-page.html).
+For further information about Klepsydra Technologies products, please visit our main website [klepsydra.com](https://www.klepsydra.com).
 
-There should be whitespace between paragraphs.
+## List of repositories
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Klepsydra Community comprises of two main repositories:
 
-# Header 1
+*   [Klepsydra Core](https://github.com/klepsydra-technologies/kpsr-core)
+*   [Klepsydra Robotics](https://github.com/klepsydra-technologies/kpsr-robotics)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Besides these two, there are another two tutorial repositories:
 
-## Header 2
+*   [The Klepsydra Tutorial](https://github.com/klepsydra-technologies/kpsr-tutorial)
+*   [High Performance Vision Tutorial](https://github.com/klepsydra-technologies/kpsr-vision-ocv-tutorial)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Repository inter-dependencies
 
-### Header 3
+These repositories are dependent on each other as per the following graph:
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+![Repositories Deps](./images/repo_dependencies.png)
+
+## Installation
+
+### Klepsydra Core.
+
+The first repository to install is kpsr-core:
+
+```bash
+git clone https://github.com/klepsydra-technologies/kpsr-core.git
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+Then follow the installation instruction provided in the [readme file](https://github.com/klepsydra-technologies/kpsr-core/blob/master/README.md).
+
+This repository contains:
+*   Core API definition classes
+*   Basic in-memory communication API
+*   High performance in-memory communication API
+*   Code generation tools
+*   ROS, DDS, ZMQ and Socket middleware bindings
+*   Asynchronous state machine development framework.
+
+Further API and example documentations can be found in this [link](https://github.com/klepsydra-technologies/kpsr-core/tree/master/api-doc).
+
+The API of Klepsydra is split into two:
+
+*   Application API. Which is used by application or functional code that is independent of the underlying middleware or communication frameworks.
+*   Composition Code. Which is used to assemble or wire up the application.
+
+This approach of two APIs is reflected in the API docs. It is based in the concepts of:
+
+*   [Strategy Design Pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+*   [Composition Root Design Pattern](https://freecontent.manning.com/dependency-injection-in-net-2nd-edition-understanding-the-composition-root/)
+*   [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
+
+Some of our code was inspired in the [Spring Framework](https://spring.io/) for Java.
+
+### Klepsydra Robotics.
+
+This repository provides ROS-independent and high-performance enhancements to applications using ROS, MAVROS and specially [OpenCV](https://opencv.org/).
+
+```bash
+git clone https://github.com/klepsydra-technologies/kpsr-robotics.git
 ```
 
-#### Header 4
+Then follow the installation instruction provided in the [readme file](https://github.com/klepsydra-technologies/kpsr-robotics/blob/master/README.md).
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+This repository contains:
+*   ROS independent Geometry messages
+*   ROS independent Lidar messages
+*   OpenCV high performance in-memory communications.
+*   ROS, DDS and ZMQ middleware bindings
 
-##### Header 5
+Further API and example documentations can be found in this [link](https://github.com/klepsydra-technologies/kpsr-robotics/tree/master/api-doc).
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### Klepsydra Tutorial.
 
-###### Header 6
+This repository contains a comprehensive tutorial of Klepsydra for ROS and for DDS. It can be used as a template project for new Klepsydra development projects.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```bash
+git clone https://github.com/klepsydra-technologies/kpsr-tutorial.git
 ```
 
+Then follow the installation instruction provided in the [readme file](https://github.com/klepsydra-technologies/kpsr-tutorial/blob/master/README.md).
+
+This repository contains:
+*   Code generation examples
+*   ROS and DDS binding tutorials.
+
+Step-by-step guides can be found in this [link](https://github.com/klepsydra-technologies/kpsr-tutorial/tree/master/tutorials).
+
+### Klepsydra High Performance Vision Tutorial.
+
+This repository contains a step-by-step guide to build high performance vision applications based on Klepsydra and OpenCV.
+
+```bash
+git clone https://github.com/klepsydra-technologies/kpsr-vision-ocv-tutorial.git
 ```
-The final element.
-```
+
+Then follow the installation instruction provided in the [readme file](https://github.com/klepsydra-technologies/kpsr-vision-ocv-tutorial/blob/master/README.md).
+
+This repository contains:
+*   Basic Klepsydra vision services
+*   High performance composition examples
+*   Unit test examples.
+
+#  License
+
+&copy; Copyright 2019-2020, Klepsydra Technologies, all rights reserved. Licensed under the terms in [LICENSE.md](./LICENSE.md)
+
+This software and documentation are Copyright 2019-2020, Klepsydra Technologies
+Limited and its licensees. All rights reserved. See [license file](./LICENSE.md) for full copyright notice and license terms.
+
+#  Contact
+
+https://www.klepsydra.com
+support@klepsydra.com
