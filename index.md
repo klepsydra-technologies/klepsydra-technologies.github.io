@@ -82,6 +82,20 @@ This repository contains:
 
 Further API and example documentations can be found in this [link](https://github.com/klepsydra-technologies/kpsr-robotics/tree/master/api-doc).
 
+### Klepsydra ROS 2 executor.
+
+Our own ring buffer lock-free executor for ROS 2 is based on Klepsydra’s main product, the **SDK**. This performance has never been seen in an executor before.
+
+Klepsydra is based in **lock-free programming**. This kind of programming is the high-level wrapper of the atomic operations in the processor, in particular the so-call compare-and-swap or CAS operation. It was invented back in the 70s, but it didn’t really become popular until the early 90s, when it was implemented in higher-level languages and then it really took off when Java included it in the early 2010s.
+
+**Lock-free programming consists of attempting repeatedly to write data in a small piece of memory until the data is in a consistent state**. This is usually depicted as a plane trying to land in a busy airport. If the runway is busy, it flies away and then tries it once and again until success. 
+
+Our first lock free executor implementation for ROS 2 is built on top of the event loop. Every ROS 2 publisher, also called advertiser, is connected to a ring-buffer producer. The timers are connected as well to the schedulers in the event loop. Lastly, the ROS 2 subscribers are connected to the single threaded consumers.
+
+![image](https://user-images.githubusercontent.com/100839634/157836809-7f8c0d0a-f680-4d86-afb7-5bdf424c4872.png)
+
+Our event loop follows a similar design pattern to NodeJS Event Emiter. Although Klepsydra implementation is completely different, the behaviour is the same as all the events happen in one thread. Since the timers and subscriptions are single threaded, there is no need to use any locks.
+
 ### Klepsydra Tutorial.
 
 This repository contains a comprehensive tutorial of Klepsydra for ROS and for DDS. It can be used as a template project for new Klepsydra development projects.
