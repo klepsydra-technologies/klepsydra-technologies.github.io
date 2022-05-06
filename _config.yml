@@ -11,5 +11,5 @@ github:
 analytics:
   provider: google-gtag
   google:
-    measurement_id: G-H2LMHJYMYM
+    measurement_id: G-V11CG5BFH1
     anonymize_ip: false
