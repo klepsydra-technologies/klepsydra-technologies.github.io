@@ -6,3 +6,10 @@ github:
   repository_robo_url: https://github.com/klepsydra-technologies/kpsr-robotics
   repository_tuto_url: https://github.com/klepsydra-technologies/kpsr-tutorial
   repository_visi_url: https://github.com/klepsydra-technologies/kpsr-vision-ocv-tutorial
+
+# Analytics
+analytics:
+  provider: google-gtag
+  google:
+    measurement_id: G-H2LMHJYMYM
+    anonymize_ip: false
