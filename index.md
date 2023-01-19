@@ -129,6 +129,10 @@ This repository contains:
 *   High performance composition examples
 *   Unit test examples.
 
+# News
+
+Find more information about news in this [link](https://klepsydra-technologies.github.io/apache).
+
 #  License
 
 &copy; Copyright 2019-2020, Klepsydra Technologies, all rights reserved. Licensed under the terms in [LICENSE.md](./LICENSE.md)

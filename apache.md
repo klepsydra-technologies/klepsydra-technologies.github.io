@@ -1,0 +1,1 @@
+## Klepsydra Community Edition changes license to Apache 2.0
