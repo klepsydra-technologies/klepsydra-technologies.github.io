@@ -1,3 +1,7 @@
+---
+youtubeId: qF1xJrhyqvM
+---
+
 ## Klepsydra SDK Workshop
 
 Introduction to Klepsydra Core SDK community version using the code samples from Community SDK tutorial.
@@ -15,4 +19,4 @@ The use cases for this are many including:​
 * Advanced navigation algorithms​
 * Collision avoidance
 
-[![Workshop video](https://img.youtube.com/vi/qF1xJrhyqvM/0.jpg)](https://www.youtube.com/watch?v=qF1xJrhyqvM)
+{% include youtubePlayer.html id=page.youtubeId %}
