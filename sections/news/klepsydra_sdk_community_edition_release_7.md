@@ -4,7 +4,7 @@ Keeping our commitment with [open source software](https://klepsydra.com/klepsyd
 The previous version of Klepsydra SDK CE was 4.1.0, however, with this release we will jump to version 7.0.0 to match the current version of the SDK PE. In essence, both versions are identical from the performance perspective and only differ on the fact that Klepsydra SDK CE support only Linux operating systems, while the the PE version supports also real-time operating systems like [RTEMS5](https://www.rtems.org/) and [FreeRTOS10](https://www.freertos.org/).
  
 
-![Klepsydra Robot](./images/klepsydra_robot.png) 
+![Klepsydra Robot](../../images/klepsydra_robot.png) 
 
 ## KPSR Core SDK version 7 update features
 
