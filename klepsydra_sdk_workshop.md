@@ -2,6 +2,8 @@
 youtubeId: qF1xJrhyqvM
 ---
 
+# Klepsydra SDK Workshop
+
 Introduction to Klepsydra Core SDK community version using the code samples from Community SDK tutorial.
 
 Klepsydra pipelining can process much more data with less CPU. ​
