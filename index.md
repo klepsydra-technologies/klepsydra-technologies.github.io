@@ -32,7 +32,7 @@ Besides these two, there are another two tutorial repositories:
 
 These repositories are dependent on each other as per the following graph:
 
-![Repositories Deps](./images/repo_dependencies.png)
+![Repositories Deps](/images/repo_dependencies.png)
 
 ## Installation
 

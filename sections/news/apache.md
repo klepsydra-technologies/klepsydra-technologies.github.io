@@ -10,7 +10,7 @@ The Apache License 2.0 offers more flexibility and fewer restrictions than copyl
 2. It permits users to distribute software as part of a larger work, such as a distribution of software or an operating system. This is not allowed under licenses such as LGPLv3, which require software to be distributed in a way that allows users to freely modify and redistribute it.
 apache
 
-![Klepsydra Apache Logos](../../images/klepsydra_apache_logos.jpg)
+![Klepsydra Apache Logos](/images/klepsydra_apache_logos.jpg)
 
 Klepsydra currently have [10 open-source repositories](https://github.com/klepsydra-technologies) that will change to **Apache 2.0**.These are oriented to development of advanced edge applications for robotics, computer vision, IoT and others.
 
@@ -22,7 +22,7 @@ There are a number of reasons why Klepsydra chose to offer some of their softwar
 
 Overall, releasing open-source software can be a valuable and rewarding experience. It is important to give edge computing developers more resources for the challenges they face.
 
-![Robot AI](../../images/robot_ai.jpg)
+![Robot AI](/images/robot_ai.jpg)
 
 
 
