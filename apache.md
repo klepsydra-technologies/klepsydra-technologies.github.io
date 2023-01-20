@@ -1,4 +1,3 @@
-## Klepsydra Community Edition changes license to Apache 2.0
 
 Since the first release of [Klepsydra SDK Community Edition](https://klepsydra.com/klepsydra-goes-open-source/), we have used the [LGPLv3 license](https://www.gnu.org/licenses/lgpl-3.0.en.html). Very soon, we are going to launch the open-source version of our ROS2 plugin, which will be included in the official ROS2 releases. This action requires for us to change our open-source license model to [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
@@ -12,7 +11,7 @@ apache
 
 ![Klepsydra Apache Logos](./images/klepsydra_apache_logos.jpg)
 
-Klepsydra currently have 10 open-source repositories that will change to **Apache 2.0**.These are oriented to development of advanced edge applications for robotics, computer vision, IoT and others.
+Klepsydra currently have [10 open-source repositories](https://github.com/klepsydra-technologies) that will change to **Apache 2.0**.These are oriented to development of advanced edge applications for robotics, computer vision, IoT and others.
 
 There are a number of reasons why Klepsydra chose to offer some of their software open-source:
 
