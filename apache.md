@@ -1,19 +1,19 @@
 ## Klepsydra Community Edition changes license to Apache 2.0
 
-Since the first release of Klepsydra SDK Community Edition , we have used the LGPLv3 license. Very soon, we are going to launch the open-source version of our ROS2 plugin, which will be included in the official ROS2 releases. This action requires for us to change our open-source license model to Apache 2.0.
+Since the first release of Klepsydra SDK Community Edition , we have used the [LGPLv3 license](https://www.gnu.org/licenses/lgpl-3.0.en.html). Very soon, we are going to launch the open-source version of our ROS2 plugin, which will be included in the official ROS2 releases. This action requires for us to change our open-source license model to [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-The Apache License 2.0 offers more flexibility and fewer restrictions than copyleft licenses such as LGPLv3. It allows users to use, modify, and distribute software without requiring them to reveal the source code or share the modifications they make to the software.
-Advantages of the Apache License 2.0:
+The Apache License 2.0 offers more flexibility and fewer restrictions than copyleft licenses such as **LGPLv3**. It allows users to use, modify, and distribute software without requiring them to reveal the source code or share the modifications they make to the software.
+**Advantages of the Apache License 2.0:**
 
 
-1. This allows users to create proprietary software products using software licensed under the Apache License 2.0 without the need to publish the source code for those products. This can be attractive to companies that want to use open source software in their products, but don’t want to divulge the source code.
+1. This allows users to create proprietary software products using software licensed under the **Apache License 2.0** without the need to publish the source code for those products. This can be attractive to companies that want to use open source software in their products, but don’t want to divulge the source code.
 
 2. It permits users to distribute software as part of a larger work, such as a distribution of software or an operating system. This is not allowed under licenses such as LGPLv3, which require software to be distributed in a way that allows users to freely modify and redistribute it.
 apache
 
 ![Klepsydra Apache Logos](./images/klepsydra_apache_logos.jpg)
 
-Klepsydra currently have 10 open-source repositories that will change to Apache 2.0. These are oriented to development of advanced edge applications for robotics, computer vision, IoT and others.
+Klepsydra currently have 10 open-source repositories that will change to **Apache 2.0**.These are oriented to development of advanced edge applications for robotics, computer vision, IoT and others.
 
 There are a number of reasons why Klepsydra chose to offer some of their software open-source:
 
