@@ -15,4 +15,4 @@ The use cases for this are many including:​
 * Advanced navigation algorithms​
 * Collision avoidance
 
-[![Workshop video](https://img.youtube.com/vi/qF1xJrhyqvM/maxresdefault.jpg)](https://youtu.be/qF1xJrhyqvM)
+[![Workshop video](https://img.youtube.com/vi/qF1xJrhyqvM/0.jpg)](https://www.youtube.com/watch?v=qF1xJrhyqvM)

@@ -6,8 +6,8 @@ title: Klepsydra Community
 # Klepsydra Community Edition GitHub Page
 
 ## News
-[Klepsydra SDK Workshop](https://klepsydra-technologies.github.io/klepsydra_sdk_workshop).
-[Klepsydra Community Edition changes license to Apache 2.0](https://klepsydra-technologies.github.io/apache).
+* [Klepsydra SDK Workshop](https://klepsydra-technologies.github.io/klepsydra_sdk_workshop).
+* [Klepsydra Community Edition changes license to Apache 2.0](https://klepsydra-technologies.github.io/apache).
 
 ## Overview
 
