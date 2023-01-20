@@ -1,10 +1,9 @@
 ## Klepsydra Community Edition changes license to Apache 2.0
 
-Since the first release of Klepsydra SDK Community Edition , we have used the [LGPLv3 license](https://www.gnu.org/licenses/lgpl-3.0.en.html). Very soon, we are going to launch the open-source version of our ROS2 plugin, which will be included in the official ROS2 releases. This action requires for us to change our open-source license model to [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Since the first release of [Klepsydra SDK Community Edition](https://klepsydra.com/klepsydra-goes-open-source/), we have used the [LGPLv3 license](https://www.gnu.org/licenses/lgpl-3.0.en.html). Very soon, we are going to launch the open-source version of our ROS2 plugin, which will be included in the official ROS2 releases. This action requires for us to change our open-source license model to [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 The Apache License 2.0 offers more flexibility and fewer restrictions than copyleft licenses such as **LGPLv3**. It allows users to use, modify, and distribute software without requiring them to reveal the source code or share the modifications they make to the software.
 **Advantages of the Apache License 2.0:**
-
 
 1. This allows users to create proprietary software products using software licensed under the **Apache License 2.0** without the need to publish the source code for those products. This can be attractive to companies that want to use open source software in their products, but don’t want to divulge the source code.
 
