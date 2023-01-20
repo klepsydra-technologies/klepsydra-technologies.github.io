@@ -11,3 +11,12 @@ $code-text-color: #494D4E;
 $section-headings-color: #6b00b3;
 @import "{{ site.theme }}";
 
+ul {
+list-style: none;
+background: #22438C;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
