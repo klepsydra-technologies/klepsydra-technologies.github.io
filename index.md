@@ -5,6 +5,9 @@ title: Klepsydra Community
 
 # Klepsydra Community Edition GitHub Page
 
+## News
+[Klepsydra Community Edition changes license to Apache 2.0](https://klepsydra-technologies.github.io/apache).
+
 ## Overview
 
 This is the GitHub page for Klepsydra Community. The goal of this is page is to provide information for the list of repositories that comprises Klepsydra Community and their documentation.
