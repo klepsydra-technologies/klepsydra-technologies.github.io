@@ -101,7 +101,7 @@ Our first lock free executor implementation for ROS 2 is built on top of the eve
 
 Our event loop follows a similar design pattern to NodeJS Event Emiter. Although Klepsydra implementation is completely different, the behaviour is the same as all the events happen in one thread. Since the timers and subscriptions are single threaded, there is no need to use any locks.
 
-Find more information about ROS2 in this [link](https://klepsydra-technologies.github.io/ros/ros2).
+Find more information about ROS2 in this [link](https://klepsydra-technologies.github.io/sections/ros/ros2).
 
 ### Klepsydra Tutorial.
 
