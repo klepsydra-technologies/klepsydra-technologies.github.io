@@ -23,11 +23,11 @@ ul li {
 
 ul li a {
     display: block;
-    padding: 20px 25px;
+    padding: 10px 15px;
     color: #FFF;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 ul li ul.dropdown li {
@@ -36,14 +36,14 @@ ul li ul.dropdown li {
 
 ul li ul.dropdown {
     width: 100%;
-    background: #22438C;
+    background: #bc83e2;
     position: absolute;
     z-index: 999;
     display: none;
 }
 
 ul li a:hover {
-    background: #112C66;
+    background: #bc83e2;
 }
 
 ul li:hover ul.dropdown {
