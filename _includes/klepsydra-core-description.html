@@ -1,0 +1,55 @@
+<p>
+    The first repository to install is kpsr-core:
+</p>
+
+<div class="language-bash highlighter-rouge">
+        <pre class="highlight"><code>git clone https://github.com/klepsydra-technologies/kpsr-core.git</code></pre>
+</div>
+
+<p>
+    Then follow the installation instruction provided in the
+    <a class="btn-link" href="https://github.com/klepsydra-technologies/kpsr-core/blob/master/README.md" target="_blank">readme file</a>.
+</p>
+
+<p>This repository contains:</p>
+<ul>
+    <li>Core API definition classes</li>
+    <li>Basic in-memory communication API</li>
+    <li>High performance in-memory communication API</li>
+    <li>Code generation tools</li>
+    <li>ROS, DDS, ZMQ and Socket middleware bindings</li>
+    <li>Asynchronous state machine development framework.</li>
+</ul>
+
+<p>
+    The API of Klepsydra is split into two:
+</p>
+<ul>
+    <li>
+        Application API. Which is used by application or functional code that is independent of the underlying middleware or communication frameworks.
+    </li>
+    <li>
+        Composition Code. Which is used to assemble or wire up the application.
+    </li>
+</ul>
+
+<p>
+    This approach of two APIs is reflected in the API docs. It is based in the concepts of:
+</p>
+<ul>
+    <li>
+        <a class="btn-link" href="https://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Strategy Design Pattern</a>
+    </li>
+    <li>
+        <a class="btn-link" href="https://freecontent.manning.com/dependency-injection-in-net-2nd-edition-understanding-the-composition-root/" target="_blank">Composition Root Design Pattern</a>
+    </li>
+    <li>
+        <a class="btn-link" href="https://en.wikipedia.org/wiki/Dependency_injection" target="_blank">Dependency Injection</a>
+    </li>
+</ul>
+
+<p>
+    Some of our code was inspired in the
+    <a href="https://spring.io/" target="_blank">Spring Framework</a>
+    for Java.
+</p>

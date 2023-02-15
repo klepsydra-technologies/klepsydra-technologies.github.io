@@ -1,0 +1,15 @@
+<p>
+    Our own ring buffer lock-free executor for ROS 2 is based on Klepsydra’s main product, the <b>SDK</b>. This performance has never been seen in an executor before.
+</p>
+
+<p>
+    Klepsydra is based in <b>lock-free programming</b>. This kind of programming is the high-level wrapper of the atomic operations in the processor, in particular the so-call compare-and-swap or CAS operation. It was invented back in the 70s, but it didn’t really become popular until the early 90s, when it was implemented in higher-level languages and then it really took off when Java included it in the early 2010s.
+</p>
+
+<p>
+    <b>Lock-free programming consists of attempting repeatedly to write data in a small piece of memory until the data is in a consistent state</b>. This is usually depicted as a plane trying to land in a busy airport. If the runway is busy, it flies away and then tries it once and again until success.
+</p>
+
+<p>
+    Our first lock free executor implementation for ROS 2 is built on top of the event loop. Every ROS 2 publisher, also called advertiser, is connected to a ring-buffer producer. The timers are connected as well to the schedulers in the event loop. Lastly, the ROS 2 subscribers are connected to the single threaded consumers.
+</p>

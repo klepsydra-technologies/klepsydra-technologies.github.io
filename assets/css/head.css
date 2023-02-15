@@ -48,8 +48,17 @@
     }
 }
 @media screen and (min-width: 42em) and (max-width: 64em) {
+    .logo-image {
+        width: 70%;
+    }
+
     .page-header {
         padding: 3rem 4rem;
+    }
+
+    .head-title {
+        width: 100%;
+        height: 100%;
     }
 }
 @media screen and (max-width: 42em) {
@@ -71,6 +80,10 @@
         width: 100%;
         height: 100%;
     }
+
+    .logo-image {
+        width: 50%;
+    }
 }
 
 /*Navigation*/
@@ -90,5 +103,9 @@
 
     .navigation .links {
         flex-direction: column;
+    }
+
+    .navigation > p > img {
+        width: 70%;
     }
 }
