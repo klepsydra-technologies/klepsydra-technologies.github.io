@@ -1,3 +1,69 @@
-.paragraph {
-    background: blue;
+.home {
+    color: #000000;
+    padding: 4rem 10rem;
+}
+
+.main-content-heading {
+    color: #2B2E76;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.repository-diagram-image {
+    max-width: 80%;
+}
+
+.repository-diagram {
+    text-align: center;
+}
+
+.repository-diagram-title {
+    margin-top: 0;
+}
+
+.card {
+    padding: 1.5rem 1.5rem;
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    /* Primary */
+
+    border: 1px solid #2B2E76;
+}
+
+.card .card-btn, .image-block .card-btn {
+    width: 7rem;
+}
+
+.card-ctas {
+    display: flex;
+}
+
+.card-ctas .card-btn + .card-btn {
+    margin-left: 1.5rem;
+}
+
+.installation {
+    margin-bottom: 64px;
+}
+
+.installation .card + .card {
+    margin-top: 32px;
+}
+
+
+.tutorials {
+    display: flex;
+    justify-content: center;
+}
+
+.tutorials .card {
+    width: 548px;
+    height: 544px;
+}
+
+.tutorials .card + .card {
+    margin-left: 20px;
 }
