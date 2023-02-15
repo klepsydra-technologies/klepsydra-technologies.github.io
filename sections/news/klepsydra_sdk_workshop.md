@@ -1,4 +1,6 @@
 ---
+layout: news
+title: Klepsydra SDK Workshop
 youtubeId: qF1xJrhyqvM
 ---
 
