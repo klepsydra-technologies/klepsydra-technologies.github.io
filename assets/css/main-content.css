@@ -1,3 +1,17 @@
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+}
+
 .home {
     color: #000000;
     padding: 4rem 10rem;
@@ -21,6 +35,21 @@
 
 .repository-diagram-title {
     margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.repository-diagram-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.more-info-btn {
+    margin-top: 3.5rem;
 }
 
 .card {
@@ -66,4 +95,36 @@
 
 .tutorials .card + .card {
     margin-left: 20px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 42em) {
+    .home {
+        padding: 1rem 2rem;
+    }
+    .tutorials {
+        flex-direction: column;
+    }
+
+    .tutorials .card {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .tutorials .card + .card {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}
+
+/*Tablet*/
+@media screen and (max-width: 62em) {
+    .tutorials {
+        flex-direction: column;
+    }
+
+    .tutorials .card + .card {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
 }
