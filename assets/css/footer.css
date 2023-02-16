@@ -1,0 +1,47 @@
+.footer-ctas > div  > ul > li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+    color: #000000;
+}
+
+.footer-ctas > div  > ul > li > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.footer-ctas .list-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.site-footer {
+    padding: 4rem 10rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ctas {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    margin-top: 3rem;
+}
+
+.copyright > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
