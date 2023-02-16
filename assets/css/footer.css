@@ -45,3 +45,14 @@
     line-height: 150%;
     color: #000000;
 }
+
+@media screen and (max-width: 42em) {
+    .site-footer {
+        padding: 1rem 1rem;
+    }
+
+    .footer-ctas {
+        display: block;
+    }
+}
+
