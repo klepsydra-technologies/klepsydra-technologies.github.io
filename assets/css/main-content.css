@@ -1,0 +1,138 @@
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+}
+
+.home {
+    color: #000000;
+    padding: 4rem 10rem;
+}
+
+.main-content-heading {
+    color: #2B2E76;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    margin-top: 60px;
+}
+
+.repository-diagram-image {
+    max-width: 80%;
+}
+
+.repository-diagram {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.repository-diagram-title {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.repository-diagram-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.more-info-btn {
+    margin-top: 3.5rem;
+}
+
+.card {
+    padding: 1.5rem 1.5rem;
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    /* Primary */
+
+    border: 1px solid #2B2E76;
+}
+
+.card .card-btn, .image-block .card-btn {
+    width: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-ctas {
+    display: flex;
+}
+
+.card-ctas .card-btn + .card-btn {
+    margin-left: 1.5rem;
+}
+
+.installation {
+    margin-bottom: 64px;
+}
+
+.installation .card + .card {
+    margin-top: 32px;
+}
+
+
+.tutorials {
+    display: flex;
+    justify-content: center;
+}
+
+.tutorials .card {
+    width: 548px;
+    height: 544px;
+}
+
+.tutorials .card + .card {
+    margin-left: 20px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 62em) {
+    .tutorials {
+        flex-direction: column;
+    }
+
+    .home {
+        padding: 2rem 6rem;
+    }
+
+    .tutorials .card + .card {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 42em) {
+    .home {
+        padding: 0 0.5rem;
+    }
+    .tutorials {
+        flex-direction: column;
+    }
+
+    .tutorials .card {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .tutorials .card + .card {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}

@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
 title: Klepsydra Community
 description: An open source framework for high performance edge data processing.
 github:

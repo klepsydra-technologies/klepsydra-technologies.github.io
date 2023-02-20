@@ -1,3 +1,8 @@
+---
+layout: news
+title: Klepsydra SDK Community Edition Release 7.0
+---
+
 # Klepsydra SDK Community Edition Release 7.0
 
 Keeping our commitment with [open source software](https://klepsydra.com/klepsydra-goes-open-source/), our team has released a large number of features from the [SDK Professional Edition (PE)](https://klepsydra.com/klepsydra-sdk-in-action-data-aggregation-demo/) to the [SDK Community Edition (CE)](http://www.klepsydra.org/). These features includes bug fixing and substantial performance improvements, a full list can be found below.
