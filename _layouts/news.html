@@ -5,15 +5,6 @@
     <meta charset="UTF-8">
     <title>News - {{ page.title }}</title>
     <meta name="description" content="Klepsydra.org news">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V11CG5BFH1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', '{{ site.analytics.google.measurement_id }}');
-    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#6600cc">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -21,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/news.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="preload" href="/assets/css/news.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/news.css"></noscript>
 </head>
 
 <body>
