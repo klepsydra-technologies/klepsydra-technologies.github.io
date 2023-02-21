@@ -13,7 +13,7 @@ Klepsydra is based in lock-free programming. This kind of programming is the hig
 
 **Lock-free programming consists of attempting repeatedly to write data in a small piece of memory until the data is in a consistent state**. This is usually depicted as a plane trying to land in a busy airport. If the runway is busy, it flies away and then tries it once and again until success. 
 
-![image](https://user-images.githubusercontent.com/100839634/158964619-9b025ce1-2c9f-4714-9115-24825e1afa55.png)
+![image](./../../images/lock-free-programming.webp)
 
 This technique is substantially lighter than the traditional mutex operation, because it is just specific to a one small piece of memory, as opposed to mutex, which blocks a big portion of the memory. That is why the traditional lock systems are not deterministic, while lock-free systems are more granular and deterministic. It works remarkably more efficient.
 
@@ -37,7 +37,7 @@ A large throughput of processed data.
 
 Our first lock free executor implementation for ROS 2 is built on top of the event loop. **Every ROS 2 publisher, also called advertiser, is connected to a ring-buffer producer**. The timers are connected as well to the schedulers in the event loop. Lastly, the ROS 2 subscribers are connected to the single threaded consumers.
 
-![image](https://user-images.githubusercontent.com/100839634/158964656-75ede8f9-c5cb-44e8-a1d2-f044c2ff1cc7.png)
+![image](./../../images/lock-free-executor.webp)
 
 Our event loop follows a similar design pattern to NodeJS Event Emiter. Although Klepsydra implementation is completely different, the behaviour is the same as all the events happen in one thread. Since the timers and subscriptions are single threaded, there is no need to use any locks.
 
@@ -54,6 +54,6 @@ Testing scenarios were built for the above-mentioned issues and then validated i
 3. Klepsydra’s executor.
 In the first test scenario, the results proved that Klepsydra’s executor needs substantially less CPU consumption with moderate data rates. As the number of publishers increases and the data rate gets faster, the difference in CPU consumption becomes considerably large. At a certain point, it can be observed that only Klepsydra processes all the incoming messages, whereas the other two executors cannot keep up and start losing critical data.
 
-![image](https://user-images.githubusercontent.com/100839634/158964697-f6dbd485-d3ff-4079-a9ed-5f137d6f1afa.png)
+![image](./../../images/eventloop-executor.webp)
 
 As for the second test case, with the introduction of multiple subscribers per publisher, the obtained results were even better. The Klepsydra lock-free executor can process substantially more volumes of data. Where the other executors stop processing data, Klepsydra continues until the physical limit of the computer, utilising the available resources in an optimal manner.
