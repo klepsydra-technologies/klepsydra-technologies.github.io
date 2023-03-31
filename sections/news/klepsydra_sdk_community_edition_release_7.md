@@ -30,4 +30,6 @@ To promote our products, as open-source software is widely used and discussed in
 To extend the market for our products by making them available to many more users.
 To build a community of developers around our products who can make their contributions and improve its development.
 To attract developers to use our technology by giving them a way to become familiar with Klepsydra code.
-To create a standard in the industry. 1233
+To create a standard in the industry. hola
+
+
