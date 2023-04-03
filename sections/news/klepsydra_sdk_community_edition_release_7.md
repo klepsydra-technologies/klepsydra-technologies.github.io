@@ -31,5 +31,6 @@ To extend the market for our products by making them available to many more user
 To build a community of developers around our products who can make their contributions and improve its development.
 To attract developers to use our technology by giving them a way to become familiar with Klepsydra code.
 To create a standard in the industry. 
+Is this thing working? 
 
 
