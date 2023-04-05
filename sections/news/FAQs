@@ -1,3 +1,0 @@
-## What is the difference between Klepsydra's community and professional edition?
-
-Klepsydra is a software tool designed for real-time data processing and analysis. The main difference between Klepsydra's community and professional edition is the set of features and level of support offered.The previous version of Klepsydra SDK CE was 4.1.0, however, with this release we will jump to version 7.0.0 to match the current version of the SDK PE. In essence, both versions are identical from the performance perspective and only differ on the fact that Klepsydra SDK CE support only Linux operating systems, while the the PE version supports also real-time operating systems like RTEMS5  and FreeRTOS10.
