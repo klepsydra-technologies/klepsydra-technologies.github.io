@@ -12,7 +12,7 @@ Moreover, the set of products are different for both editions:
 
 ## Can I use Klepsydra Community Edition commercially?
 
-Yes, because Klepsydra software is licensed under Apache 2.0. This is a permissive open-source license that allows you to use, modify, and distribute the software for any purpose, including commercial use.
+Yes, because Klepsydra software is licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). This is a permissive open-source license that allows you to use, modify, and distribute the software for any purpose, including commercial use.
 However, there are some conditions that you must comply with when using software under the Apache 2.0 license. These conditions include:
 1.   You must include a copy of the Apache 2.0 license in your distribution of the software
 2.   You must include the copyright notice and any other attribution notices that are included with the software.
@@ -32,11 +32,11 @@ We expect to have it ready for the second part of year 2023.
 
 Klepsydra provides a powerful set of tools for real-time data processing and analysis, making it an ideal choice for software development projects that require high performance, scalability, and fault tolerance.
 
-Have a look at this demo to understand the performance improvements that Klepsydra SDK provides: (https://klepsydra.com/klepsydra-sdk-in-action-data-aggregation-demo/)
+Have a look at this [demo](https://klepsydra.com/klepsydra-sdk-in-action-data-aggregation-demo/) to understand the performance improvements that Klepsydra SDK provides.
 
 ## Is Klepsydra AI Opensource?
 
-No. Klepsydra AI is not planned to be offered opensource. However, you can request a three-month free trial via our [website] (https://klepsydra.com)
+No. Klepsydra AI is not planned to be offered opensource. However, you can request a three-month free trial via our [website](https://klepsydra.com).
 
 ## What type of applications can benefit from the high performance of Klepsydra?
 
