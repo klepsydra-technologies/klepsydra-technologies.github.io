@@ -1,7 +1,10 @@
 ---
 layout: news
 title: Comparative Benchmarking of CPU Impact for Classical and Lock-free Map Collection Implementations in Multi-threaded Environments
+
 ---
+Written by Isabel del Castillo (COO) and Mario Alejandro Rueda (Junior C++ Developer)
+
 ## 1.   What is lock-free programming?
 
 Lock-free programming refers to a programming paradigm that aims to design concurrent algorithms and data structures that do not rely on locks or other blocking synchronization mechanisms.
